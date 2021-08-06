@@ -186,6 +186,12 @@ p {
   margin: 3% 0;
 }
 
+.jumbo-about {
+  background-image: url('../img/jumbo-about.png');
+  height: 18vh;
+  margin: 3% 0;
+}
+
 .top-content {
   display: flex;
   flex-wrap: wrap;
@@ -198,6 +204,12 @@ p {
   width: 48%;
   padding: 0 1%;
   padding-bottom: 20px;
+}
+
+.about-top {
+  padding: 0 2% 2% 2%;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed black;
 }
 
 .middle-content {
