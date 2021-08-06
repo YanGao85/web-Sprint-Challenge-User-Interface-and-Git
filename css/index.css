@@ -192,13 +192,13 @@ button {
 
 .jumbo {
   background-image: url('../img/jumbo.jpg');
-  height: 18vh;
+  height: 16vh;
   margin: 3% 0;
 }
 
 .jumbo-about {
   background-image: url('../img/jumbo-about.png');
-  height: 18vh;
+  height: 16.5vh;
   margin: 3% 0;
 }
 
@@ -220,6 +220,11 @@ button {
   padding: 0 2% 2% 2%;
   margin-bottom: 20px;
   border-bottom: 1px dashed black;
+}
+
+.about-bottom {
+  padding: 0 2% 2% 2%;
+  margin-bottom: 20px;
 }
 
 .about-content {
