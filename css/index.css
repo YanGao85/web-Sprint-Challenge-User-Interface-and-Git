@@ -158,7 +158,7 @@ nav {
 nav a {
   text-decoration: none;
   color: black;
-  font-size: 15px;
+  font-size: 0.9rem;
 }
 
 h1,
@@ -178,10 +178,10 @@ p {
 button {
   border-radius: 9px;
   padding: 2.3% 2.5%;
-  width: 130px;
+  width: 36%;
   background-color: white;
   border: 2px solid black;
-  font-size: 16px;
+  font-size: 1rem;
   margin-bottom: 0.4rem;
 }
 
@@ -204,7 +204,6 @@ button {
 
 .top-content {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-evenly;
   margin-bottom: 20px;
   border-bottom: 1px dashed black;
@@ -214,38 +213,6 @@ button {
   width: 48%;
   padding: 0 1%;
   padding-bottom: 20px;
-}
-
-.about-top {
-  padding: 0 2% 2% 2%;
-  margin-bottom: 20px;
-  border-bottom: 1px dashed black;
-}
-
-.about-bottom {
-  padding: 0 2% 2% 2%;
-  margin-bottom: 20px;
-}
-
-.about-content {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.about-content .about-boxes {
-  width: 45%;
-  margin: 0 2.5%;
-  padding: 2% 0;
-  margin-bottom: 2.6rem;
-  border-bottom: 1px dashed black;
-}
-
-.about-content .about-boxes h2 {
-  margin-top: 3%;
-}
-
-.about-content .about-boxes p {
-  margin-bottom: 4%;
 }
 
 .middle-content {
@@ -267,7 +234,6 @@ button {
 .middle-content .boxes .box {
   width: 12.5%;
   height: 100px;
-  background: black;
   margin: 20px 2.5%;
   color: white;
   display: flex;
@@ -346,4 +312,36 @@ footer nav a {
 
 .middle-content .boxes .box10 {
   background: dodgerblue;
+}
+
+.about-top {
+  padding: 0 2% 2% 2%;
+  margin-bottom: 1rem;
+  border-bottom: 1px dashed black;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-content .about-boxes {
+  width: 45%;
+  margin: 0 2.5%;
+  padding: 2% 0;
+  margin-bottom: 2.6rem;
+  border-bottom: 1px dashed black;
+}
+
+.about-content .about-boxes h2 {
+  margin-top: 3%;
+}
+
+.about-content .about-boxes p {
+  margin-bottom: 4%;
+}
+
+.about-bottom {
+  padding: 0 2% 2% 2%;
+  margin-bottom: 1rem;
 }
