@@ -175,6 +175,16 @@ p {
   line-height: 1.4;
 }
 
+button {
+  border-radius: 9px;
+  padding: 2.3% 2.5%;
+  width: 130px;
+  background-color: white;
+  border: 2px solid black;
+  font-size: 16px;
+  margin-bottom: 0.4rem;
+}
+
 .container {
   width: 800px;
   margin: 0 auto;
@@ -210,6 +220,27 @@ p {
   padding: 0 2% 2% 2%;
   margin-bottom: 20px;
   border-bottom: 1px dashed black;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-content .about-boxes {
+  width: 45%;
+  margin: 0 2.5%;
+  padding: 2% 0;
+  margin-bottom: 2.6rem;
+  border-bottom: 1px dashed black;
+}
+
+.about-content .about-boxes h2 {
+  margin-top: 3%;
+}
+
+.about-content .about-boxes p {
+  margin-bottom: 4%;
 }
 
 .middle-content {
