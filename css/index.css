@@ -185,10 +185,31 @@ button {
   margin-bottom: 0.4rem;
 }
 
+footer {
+  width: 100%;
+  background: black;
+}
+
+footer nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 2%;
+  font-size: 14px;
+}
+
+footer nav a {
+  color: white;
+  text-decoration: none;
+}
+
 .container {
   width: 800px;
   margin: 0 auto;
 }
+
+/* Jumbotron Images */
 
 .jumbo {
   background-image: url('../img/jumbo.jpg');
@@ -201,6 +222,8 @@ button {
   height: 16.5vh;
   margin: 3% 0;
 }
+
+/* Index Page */
 
 .top-content {
   display: flex;
@@ -239,39 +262,6 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.bottom-content {
-  display: flex;
-  margin: 0 2% 20px;
-  justify-content: space-around;
-}
-
-.bottom-content .text-container {
-  padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-  padding-right: 0;
-}
-
-footer {
-  width: 100%;
-  background: black;
-}
-
-footer nav {
-  width: 60%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 2%;
-  font-size: 14px;
-}
-
-footer nav a {
-  color: white;
-  text-decoration: none;
 }
 
 .middle-content .boxes .box1 {
@@ -313,6 +303,22 @@ footer nav a {
 .middle-content .boxes .box10 {
   background: dodgerblue;
 }
+
+.bottom-content {
+  display: flex;
+  margin: 0 2% 20px;
+  justify-content: space-around;
+}
+
+.bottom-content .text-container {
+  padding-right: 4%;
+}
+
+.bottom-content .text-container:last-child {
+  padding-right: 0;
+}
+
+/* About Page */
 
 .about-top {
   padding: 0 2% 2% 2%;
